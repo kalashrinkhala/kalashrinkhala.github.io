@@ -1,0 +1,8 @@
+{
+  "name": "Dr. Shivendra Singh - Kala Shrinkhala Portfolio",
+  "description": "Comprehensive responsive interactive portfolio and retrospective gallery of master artist Dr. Shivendra Singh, featuring curated artwork collections, biography timeline, publication archive, and artwork showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
