@@ -155,7 +155,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: 'easeOut' }}
-          className="bg-[#242628] rounded-xl sm:rounded-2xl p-6 sm:p-10 lg:p-12 text-white shadow-xl border border-stone-800"
+          className="bg-[#242628] rounded-xl sm:rounded-2xl p-6 sm:p-10 lg:p-12 text-white shadow-xl border border-stone-800 selection:bg-[#f7f5eb] selection:text-black"
         >
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             {/* Left Column: Artist Portrait with Progressive CDN Loading & Skeleton */}
