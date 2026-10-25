@@ -139,7 +139,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={() => handlePageSelect('home')}
               className={`relative py-2 transition-colors duration-200 cursor-pointer ${
                 currentPage === 'home'
-                  ? 'text-stone-950 font-semibold border-b-2 border-stone-900'
+                  ? 'text-stone-950 font-semibold border-b-2 border-[#8f1402]'
                   : 'hover:text-stone-950'
               }`}
             >
@@ -152,7 +152,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={() => handlePageSelect('artist')}
               className={`relative py-2 transition-colors duration-200 cursor-pointer ${
                 currentPage === 'artist'
-                  ? 'text-stone-950 font-semibold border-b-2 border-stone-900'
+                  ? 'text-stone-950 font-semibold border-b-2 border-[#8f1402]'
                   : 'hover:text-stone-950'
               }`}
             >
@@ -177,7 +177,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 }}
                 className={`flex items-center gap-1.5 py-2 transition-colors duration-200 cursor-pointer ${
                   currentPage === 'artworks'
-                    ? 'text-stone-950 font-semibold border-b-2 border-stone-900'
+                    ? 'text-stone-950 font-semibold border-b-2 border-[#8f1402]'
                     : 'hover:text-stone-950'
                 }`}
                 aria-expanded={isArtworkDropdownOpen}
@@ -220,7 +220,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                             onClick={() => handleCategorySelect(cat.id)}
                             className={`w-full flex items-center justify-between px-4 py-2 text-left text-[13px] transition-colors cursor-pointer ${
                               isCurrentCat
-                                ? 'bg-stone-900 text-white font-medium'
+                                ? 'bg-[#8f1402] text-white font-medium'
                                 : 'text-stone-700 hover:bg-stone-100 hover:text-stone-950'
                             }`}
                           >
@@ -242,7 +242,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={() => handlePageSelect('published')}
               className={`relative py-2 transition-colors duration-200 cursor-pointer ${
                 currentPage === 'published'
-                  ? 'text-stone-950 font-semibold border-b-2 border-stone-900'
+                  ? 'text-stone-950 font-semibold border-b-2 border-[#8f1402]'
                   : 'hover:text-stone-950'
               }`}
             >
@@ -255,7 +255,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={() => handlePageSelect('contact')}
               className={`relative py-2 transition-colors duration-200 cursor-pointer ${
                 currentPage === 'contact'
-                  ? 'text-stone-950 font-semibold border-b-2 border-stone-900'
+                  ? 'text-stone-950 font-semibold border-b-2 border-[#8f1402]'
                   : 'hover:text-stone-950'
               }`}
             >
@@ -329,7 +329,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     onClick={() => handlePageSelect('home')}
                     className={`w-full text-left py-3.5 px-4 rounded-xl text-lg font-medium transition-colors cursor-pointer ${
                       currentPage === 'home'
-                        ? 'bg-stone-900 text-white font-semibold shadow-xs'
+                        ? 'bg-[#8f1402] text-white font-semibold shadow-xs'
                         : 'text-stone-800 hover:bg-stone-200/60 active:bg-stone-200'
                     }`}
                   >
@@ -342,7 +342,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     onClick={() => handlePageSelect('artist')}
                     className={`w-full text-left py-3.5 px-4 rounded-xl text-lg font-medium transition-colors cursor-pointer ${
                       currentPage === 'artist'
-                        ? 'bg-stone-900 text-white font-semibold shadow-xs'
+                        ? 'bg-[#8f1402] text-white font-semibold shadow-xs'
                         : 'text-stone-800 hover:bg-stone-200/60 active:bg-stone-200'
                     }`}
                   >
@@ -398,7 +398,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                               className={`w-full flex items-center justify-between py-2.5 px-3 rounded-lg text-sm text-left cursor-pointer transition-colors ${
                                 currentPage === 'artworks' &&
                                 selectedCategory === cat.id
-                                  ? 'bg-stone-900 text-white font-medium'
+                                  ? 'bg-[#8f1402] text-white font-medium'
                                   : 'text-stone-700 hover:bg-stone-200/70'
                               }`}
                             >
@@ -419,7 +419,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     onClick={() => handlePageSelect('published')}
                     className={`w-full text-left py-3.5 px-4 rounded-xl text-lg font-medium transition-colors cursor-pointer ${
                       currentPage === 'published'
-                        ? 'bg-stone-900 text-white font-semibold shadow-xs'
+                        ? 'bg-[#8f1402] text-white font-semibold shadow-xs'
                         : 'text-stone-800 hover:bg-stone-200/60 active:bg-stone-200'
                     }`}
                   >
@@ -432,7 +432,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     onClick={() => handlePageSelect('contact')}
                     className={`w-full text-left py-3.5 px-4 rounded-xl text-lg font-medium transition-colors cursor-pointer ${
                       currentPage === 'contact'
-                        ? 'bg-stone-900 text-white font-semibold shadow-xs'
+                        ? 'bg-[#8f1402] text-white font-semibold shadow-xs'
                         : 'text-stone-800 hover:bg-stone-200/60 active:bg-stone-200'
                     }`}
                   >

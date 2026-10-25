@@ -124,7 +124,7 @@ export const ArtWorksView: React.FC<ArtWorksViewProps> = ({
                   onClick={() => handleCategoryClick(cat.id)}
                   className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer shrink-0 flex items-center gap-1.5 ${
                     isSelected
-                      ? 'bg-stone-900 text-white shadow-xs'
+                      ? 'bg-[#8f1402] text-white shadow-xs'
                       : 'bg-white text-stone-700 border border-stone-200 hover:border-stone-400 hover:bg-stone-50'
                   }`}
                 >
@@ -202,7 +202,7 @@ export const ArtWorksView: React.FC<ArtWorksViewProps> = ({
                 setSearchQuery('');
                 onSelectCategory(null);
               }}
-              className="px-4 py-2 bg-stone-900 text-white text-xs font-semibold rounded-lg uppercase tracking-wider hover:bg-stone-800 transition-colors"
+              className="px-4 py-2 bg-[#8f1402] text-white text-xs font-semibold rounded-lg uppercase tracking-wider hover:bg-[#781102] transition-colors"
             >
               Reset Filters
             </button>
@@ -237,7 +237,7 @@ export const ArtWorksView: React.FC<ArtWorksViewProps> = ({
                 <button
                   id="load-more-artworks-button"
                   onClick={handleLoadMore}
-                  className="px-8 py-3.5 bg-stone-900 hover:bg-stone-800 active:bg-stone-950 text-white text-xs font-bold uppercase tracking-[0.16em] rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center gap-2 cursor-pointer"
+                  className="px-8 py-3.5 bg-[#8f1402] hover:bg-[#781102] active:bg-[#630e01] text-white text-xs font-bold uppercase tracking-[0.16em] rounded-lg shadow-sm hover:shadow transition-all inline-flex items-center gap-2 cursor-pointer"
                 >
                   <span>LOAD MORE ARTWORK</span>
                   <ArrowDown className="w-4 h-4" />

@@ -200,7 +200,7 @@ export const ArchivalCarousel: React.FC<ArchivalCarouselProps> = ({
               type="button"
               onClick={() => setCurrentIndex(dotIdx)}
               className={`h-1.5 rounded-full transition-all duration-300 ${
-                isActive ? 'w-6 bg-amber-700' : 'w-2 bg-stone-300 hover:bg-stone-400'
+                isActive ? 'w-6 bg-[#8f1402]' : 'w-2 bg-stone-300 hover:bg-stone-400'
               }`}
               title={`Go to slide ${dotIdx + 1}`}
               aria-label={`Go to slide ${dotIdx + 1}`}

@@ -246,7 +246,7 @@ export const ContactView: React.FC<ContactViewProps> = ({
                   </p>
                   <button
                     onClick={handleReset}
-                    className="mt-4 px-6 py-2.5 bg-stone-900 hover:bg-stone-800 text-white text-xs font-semibold uppercase tracking-widest rounded-lg transition-colors cursor-pointer"
+                    className="mt-4 px-6 py-2.5 bg-[#8f1402] hover:bg-[#781102] text-white text-xs font-semibold uppercase tracking-widest rounded-lg transition-colors cursor-pointer"
                   >
                     Send Another Message
                   </button>
@@ -444,7 +444,7 @@ export const ContactView: React.FC<ContactViewProps> = ({
                       id="contact-submit-button"
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full py-4 px-6 bg-[#A6533B] hover:bg-[#8F442F] active:bg-[#7A3623] disabled:opacity-70 text-white font-sans text-xs sm:text-sm font-bold uppercase tracking-[0.16em] rounded-lg shadow-sm hover:shadow transition-all flex items-center justify-center gap-2 cursor-pointer"
+                      className="w-full py-4 px-6 bg-[#8f1402] hover:bg-[#781102] active:bg-[#630e01] disabled:opacity-70 text-white font-sans text-xs sm:text-sm font-bold uppercase tracking-[0.16em] rounded-lg shadow-sm hover:shadow transition-all flex items-center justify-center gap-2 cursor-pointer"
                     >
                       {isSubmitting ? (
                         <>

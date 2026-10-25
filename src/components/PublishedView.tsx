@@ -75,7 +75,7 @@ export const PublishedView: React.FC = () => {
               onClick={() => setActiveFilter(filter)}
               className={`px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all whitespace-nowrap cursor-pointer shrink-0 ${
                 activeFilter === filter
-                  ? 'bg-stone-900 text-white shadow-xs'
+                  ? 'bg-[#8f1402] text-white shadow-xs'
                   : 'bg-white text-stone-700 border border-stone-200 hover:border-stone-400'
               }`}
             >
@@ -155,7 +155,7 @@ export const PublishedView: React.FC = () => {
               {/* Modal Header */}
               <div className="flex items-center justify-between px-4 py-3 bg-stone-50 border-b border-stone-200">
                 <div className="flex items-center gap-2 overflow-hidden pr-2">
-                  <span className="px-2 py-0.5 rounded text-[10px] font-mono uppercase bg-stone-900 text-white font-medium shrink-0">
+                  <span className="px-2 py-0.5 rounded text-[10px] font-mono uppercase bg-[#8f1402] text-white font-medium shrink-0">
                     {selectedPublication.type}
                   </span>
                   <span className="text-xs sm:text-sm font-medium text-stone-800 truncate">

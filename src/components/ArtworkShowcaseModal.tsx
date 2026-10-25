@@ -331,7 +331,7 @@ export const ArtworkShowcaseModal: React.FC<ArtworkShowcaseModalProps> = ({
                     onInquire(artwork);
                     onClose();
                   }}
-                  className="w-full py-3 px-4 bg-[#A6533B] hover:bg-[#8F442F] active:bg-[#7A3623] text-white font-semibold text-xs tracking-widest uppercase rounded shadow-sm hover:shadow transition-all flex items-center justify-center gap-2 cursor-pointer"
+                  className="w-full py-3 px-4 bg-[#8f1402] hover:bg-[#781102] active:bg-[#630e01] text-white font-semibold text-xs tracking-widest uppercase rounded shadow-sm hover:shadow transition-all flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>Inquire About Artwork</span>

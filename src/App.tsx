@@ -62,7 +62,7 @@ export default function App() {
     : ARTWORKS_DATA;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#faf9f6] text-stone-900 selection:bg-[#A6533B]/25 selection:text-stone-900 antialiased overflow-x-clip font-sans">
+    <div className="min-h-screen flex flex-col bg-[#faf9f6] text-stone-900 selection:bg-[#8f1402]/25 selection:text-stone-900 antialiased overflow-x-clip font-sans">
       {/* Locked Fixed Header with Scroll Compression and Artwork Dropdown */}
       <Navbar
         currentPage={currentPage}

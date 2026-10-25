@@ -172,7 +172,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <button
             id="know-more-artist-button"
             onClick={() => onNavigate('artist')}
-            className="px-8 sm:px-10 py-3.5 sm:py-4 bg-[#A6533B] hover:bg-[#8F442F] active:bg-[#7A3623] text-white font-sans text-xs sm:text-sm font-bold tracking-[0.16em] uppercase rounded-xs shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-3 cursor-pointer"
+            className="px-8 sm:px-10 py-3.5 sm:py-4 bg-[#8f1402] hover:bg-[#781102] active:bg-[#630e01] text-white font-sans text-xs sm:text-sm font-bold tracking-[0.16em] uppercase rounded-xs shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-3 cursor-pointer"
           >
             <span>KNOW MORE ABOUT ARTIST</span>
             <ArrowRight className="w-4 h-4" />

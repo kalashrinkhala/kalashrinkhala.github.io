@@ -521,7 +521,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                 onClick={() => setActiveCvTab('education')}
                 className={`px-3.5 py-2 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                   activeCvTab === 'education'
-                    ? 'bg-[#d66d4f] text-white shadow-sm'
+                    ? 'bg-[#8f1402] text-white shadow-sm'
                     : 'text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
               >
@@ -533,7 +533,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                 onClick={() => setActiveCvTab('awards')}
                 className={`px-3.5 py-2 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                   activeCvTab === 'awards'
-                    ? 'bg-[#d66d4f] text-white shadow-sm'
+                    ? 'bg-[#8f1402] text-white shadow-sm'
                     : 'text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
               >
@@ -545,7 +545,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                 onClick={() => setActiveCvTab('exhibitions')}
                 className={`px-3.5 py-2 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                   activeCvTab === 'exhibitions'
-                    ? 'bg-[#d66d4f] text-white shadow-sm'
+                    ? 'bg-[#8f1402] text-white shadow-sm'
                     : 'text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
               >
@@ -557,7 +557,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                 onClick={() => setActiveCvTab('logos-covers')}
                 className={`px-3.5 py-2 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                   activeCvTab === 'logos-covers'
-                    ? 'bg-[#d66d4f] text-white shadow-sm'
+                    ? 'bg-[#8f1402] text-white shadow-sm'
                     : 'text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
               >
@@ -569,7 +569,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                 onClick={() => setActiveCvTab('collections-works')}
                 className={`px-3.5 py-2 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                   activeCvTab === 'collections-works'
-                    ? 'bg-[#d66d4f] text-white shadow-sm'
+                    ? 'bg-[#8f1402] text-white shadow-sm'
                     : 'text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
               >
@@ -581,7 +581,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                 onClick={() => setActiveCvTab('editorial-seminars')}
                 className={`px-3.5 py-2 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                   activeCvTab === 'editorial-seminars'
-                    ? 'bg-[#d66d4f] text-white shadow-sm'
+                    ? 'bg-[#8f1402] text-white shadow-sm'
                     : 'text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
               >
@@ -593,7 +593,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                 onClick={() => setActiveCvTab('contact')}
                 className={`px-3.5 py-2 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
                   activeCvTab === 'contact'
-                    ? 'bg-[#d66d4f] text-white shadow-sm'
+                    ? 'bg-[#8f1402] text-white shadow-sm'
                     : 'text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
               >
@@ -1194,7 +1194,7 @@ export const TheArtistView: React.FC<TheArtistViewProps> = ({ onNavigate }) => {
                   <div className="pt-2">
                     <button
                       onClick={() => onNavigate('contact')}
-                      className="w-full py-3 bg-[#A6533B] hover:bg-[#8F442F] text-white text-xs font-semibold uppercase tracking-wider rounded-lg transition-all shadow-sm cursor-pointer flex items-center justify-center gap-2"
+                      className="w-full py-3 bg-[#8f1402] hover:bg-[#781102] text-white text-xs font-semibold uppercase tracking-wider rounded-lg transition-all shadow-sm cursor-pointer flex items-center justify-center gap-2"
                     >
                       <Mail className="w-4 h-4" />
                       <span>Open Contact Message Form</span>

@@ -22,7 +22,7 @@ export const ArtworkCard: React.FC<ArtworkCardProps> = ({
     <div
       id={`artwork-card-${artwork.id}`}
       onClick={() => onSelect(artwork)}
-      className="group relative cursor-pointer flex flex-col bg-white rounded-lg overflow-hidden border border-stone-200/90 shadow-xs transition-all duration-300 hover:shadow-lg hover:border-stone-400/80 focus-within:ring-2 focus-within:ring-[#A6533B] focus:outline-none"
+      className="group relative cursor-pointer flex flex-col bg-white rounded-lg overflow-hidden border border-stone-200/90 shadow-xs transition-all duration-300 hover:shadow-lg hover:border-stone-400/80 focus-within:ring-2 focus-within:ring-[#8f1402] focus:outline-none"
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {
@@ -75,11 +75,11 @@ export const ArtworkCard: React.FC<ArtworkCardProps> = ({
       <div className="p-3.5 sm:p-4 flex flex-col flex-grow justify-between bg-white border-t border-stone-100">
         <div>
           {showCategoryLabel && (
-            <p className="text-[11px] font-bold tracking-[0.14em] uppercase text-[#A6533B] mb-1">
+            <p className="text-[11px] font-bold tracking-[0.14em] uppercase text-[#8f1402] mb-1">
               {artwork.categoryName}
             </p>
           )}
-          <h3 className="font-serif text-base sm:text-lg font-semibold text-stone-900 line-clamp-1 group-hover:text-[#A6533B] transition-colors">
+          <h3 className="font-serif text-base sm:text-lg font-semibold text-stone-900 line-clamp-1 group-hover:text-[#8f1402] transition-colors">
             {artwork.title}
           </h3>
           {artwork.hindiTitle && (
