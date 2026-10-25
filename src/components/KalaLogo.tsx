@@ -14,12 +14,12 @@ export const KalaLogo: React.FC<KalaLogoProps> = ({
   className = '',
   onClick,
 }) => {
-  // Proportional height mapping
+  // Proportional height mapping (reduced by 15% for refined proportions)
   const heightMap = {
-    sm: 'h-7 sm:h-8',
-    md: 'h-9 sm:h-10 lg:h-11',
-    lg: 'h-12 sm:h-14',
-    xl: 'h-16 sm:h-20',
+    sm: 'h-6 sm:h-[27px]',
+    md: 'h-[31px] sm:h-[34px] lg:h-[37px]',
+    lg: 'h-[41px] sm:h-[48px]',
+    xl: 'h-[54px] sm:h-[68px]',
   };
 
   return (
